@@ -1,0 +1,77 @@
+img{
+    display: block;
+    margin:auto;
+    width: 7%;
+    
+    
+}
+#para1{
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif;
+    color:white;
+    font-size:13px;
+    text-align:center;
+    margin:auto;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    
+    
+    
+
+}
+body{
+    background-image: url("yay.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:0;
+    height:100vh;
+}
+
+.navbar{
+    display:flex;
+    justify-content:center;
+    gap:5px;
+    align-items:center;
+    background-color:rgb(0,0,0,0.01);
+    padding:15px;
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif;
+    border-radius:1px;
+    }
+.nav-links{
+    display:flex;
+    gap:4px;
+    padding:5px 10px;
+
+    border-top:1px solid rgba(255,255,255,0.15);
+    border-bottom:1px solid rgba(255,255,255,0.15);
+
+    width:fit-content;
+margin-top: 15px;}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    padding:3px 15px;
+}
+h2{
+    color:white;
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif;
+    margin-left:70px;
+}
+#para2{
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif;
+    color: white;
+    word-wrap:break-word;
+    margin-left:70px;
+    width:500px
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width:150px;
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif;
+    border-radius: 7px; 
+    margin-left: 70px;
+    font-size: 15px;
+}

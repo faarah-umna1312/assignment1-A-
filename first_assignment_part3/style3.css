@@ -1,0 +1,169 @@
+/* ==========================================================================
+   1. Global & Body Styles
+   ========================================================================== */
+body { 
+    background-image: url("f1f91f9d-b8f2-4671-984d-8e5f6f4e05e6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+/* ==========================================================================
+   2. Navbar Container & Structure
+   ========================================================================== */
+.navbar1 {
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+    align-items: center; 
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif;
+    border-radius: 1px;
+    margin-right: 89px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.nav-links1 {
+    display: flex;
+    gap: 4px;
+    padding: 5px 10px;
+    color: rgb(49, 43, 43);
+    width: fit-content;
+    margin-top: 15px;
+}
+
+/* Standard Navbar Links */
+.navbar1 a {
+    color: rgb(12, 12, 46);
+    text-decoration: none;
+    padding: 3px 15px;
+    font-size: 16px; 
+    display: inline-flex;
+    align-items: center;
+}
+
+/* ==========================================================================
+   3. Dropdown Component (Fixed Spacing, Size & Arrow Alignment)
+   ========================================================================== */
+.dropdown {
+    position: relative;
+    display: inline-flex;  /* Ensures container fits content nicely */
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+/* The Dropdown Trigger Word */
+.dropbtn {
+    background: none !important; 
+    border: none !important;
+    color: rgb(12, 12, 46) !important;
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif !important;
+    font-size: 16px !important;   
+    padding: 3px 15px !important;  
+    margin: 0 !important;          
+    width: auto !important;        
+    cursor: pointer;
+    
+    
+    /* These properties force the arrow to stay directly beside the word */
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 5px !important; /* Adjust this number to change space between word and arrow */
+    white-space: nowrap !important; /* Prevents the arrow from snapping to the next line */
+margin-top: 60px;}
+
+/* Dropdown Menu Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: rgb(12, 12, 46);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover {
+    background: rgb(240, 240, 240);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}    
+
+/* ==========================================================================
+   4. Blue "Get Started" Button Styles
+   ========================================================================== */
+.nav button, .navbar button, button {
+    background-color: rgb(43, 51, 172);
+    color: white;
+    padding: 10px;
+    width: 150px;
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif;
+    border-radius: 5px; 
+    margin-left: 30px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin-top:15px;
+}
+
+/* ==========================================================================
+   5. Typography & Other Layout Elements
+   ========================================================================== */
+h1 {
+    text-align: center;
+    color: rgb(17, 17, 63);
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif;
+    color: rgb(49, 43, 43);
+    letter-spacing: 1px;
+    margin-right: 300px;
+}
+
+.faltoo {
+    text-align: center;
+    color: rgb(17, 17, 63);
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+
+#bekaar {
+    border-radius: 4px;
+    align-items: center;
+    padding: 9px;
+    margin-left: 680px;
+}
+
+.box {
+    display: flex;
+    gap: 20px;
+}
+
+.uff1 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 250px;
+    margin-left: 50px;
+}
